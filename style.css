@@ -1,0 +1,207 @@
+.navbar-brand{
+    display: flex;
+    text-align: center;
+    gap: 5px;
+}
+
+.navbar-brand h3{
+    font-size: 1.5rem;
+}
+
+.navbar-brand img{
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+.nav-link {
+    margin-left: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid black;
+}
+
+.nav-item1{
+   margin-right: 5px;
+   margin-left: -10px;
+}
+
+.nav-item1 a{
+    margin-right: 10px;
+}
+
+.d-flex button{
+border: 1px solid black;
+color: black;
+}
+
+
+.d-flex button:hover{
+    background-color: black;
+}
+
+input::placeholder{
+    color: black;
+}
+
+
+.carousel-item{
+height: 90vh;
+size: contain;
+
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.flex1{
+    width: 50%;
+    background-image: url(container1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flex2{
+    width: 50%;
+    display: flex;
+    padding-left: 10px;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.flex2 h5{
+    font-size: 1.2rem;
+}
+
+@media screen and (maxwidth : 800px) {
+    .container{
+        display: grid;
+    }
+
+}
+
+.container2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 h2{
+    font-size: 3rem;
+    border-bottom: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-card{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.programs{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.programs h5{
+    font-size: 1.2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.programs h2{
+border-bottom: 3px solid black;
+    font-size: 3rem;    
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    height: 55vh;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    
+    
+
+}
+
+.footer h3{
+    color: rgb(247, 46, 46);
+    height: 10vh;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.5rem;
+    
+}
+.part1{
+    width: 50%;
+    padding-top: 50px;
+    color: white;
+    
+    
+}
+
+.part2{
+     width: 50%;
+    padding-top: 50px;
+    color: white;
+    gap: 40px;
+    
+}
+
+
+
+
+.flex3{
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#insta{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.last-footer{
+    text-align: center;
+}
